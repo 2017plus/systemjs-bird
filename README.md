@@ -13,3 +13,11 @@
 4、执行模块内容，获取绑定到window上面的新加属性，window快照，完成System.register步骤
 
 5、执行模块注册完成后，调用回调函数（例如此处是加载完react、react-dom后，将reactNode渲染到页面指定节点内），完成模块加载
+
+# 运行步骤
+
+1、进入react-app目录，打包npm run build
+
+2、打包完毕后，在systemjs/react-app-build目录会出现步骤1打包的物料
+
+3、访问index.html
